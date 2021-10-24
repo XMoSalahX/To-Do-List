@@ -1,0 +1,83 @@
+* {
+    font-family: tahoma;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin-block: 20px;
+    margin-bottom: 40px;
+}
+
+.logo span {
+    font-size: 40px;
+}
+
+.logo span:first-child {
+    color: white;
+    background-color: rgb(245, 23, 79);
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container {
+    width: 90%;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 5px;
+    display: flex;
+    padding-inline: 20px;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input {
+    width: 70%;
+    height: 60px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(245, 23, 79);
+    font-size: 32px;
+    margin-block: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.add {
+    border: none;
+    width: 25%;
+    font-size: 20px;
+    background-color: rgb(245, 23, 79);
+    color: white;
+    border-radius: 5px;
+    margin-block: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.taskes {
+    width: 90%;
+    background-color: #ccc;
+    border-radius: 5px;
+    display: flex;
+    padding-inline: 20px;
+    flex-direction: column;
+}
